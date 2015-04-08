@@ -1,7 +1,9 @@
 require "newrelic/shoes/version"
 
+puts "New Relic for Shoes is available. Press Ctrl+Alt+N to start tracing.\n\n"
+
 Shoes::InternalApp.add_global_keypress(:'control_alt_n') do
-  puts "Loading New Relic for Shoes!"
+  puts "Tracing with New Relic for Shoes! Your metrics will output at exit.\n\n"
 
   require "new_relic/agent"
   require "new_relic/agent/method_tracer"
