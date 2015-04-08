@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jason@jasonclark.net"]
 
   spec.summary       = %q{Use New Relic to trace Shoes.}
-  spec.homepage      = "https://github.com/jasonrclark/newrelic-shoes."
+  spec.homepage      = "https://github.com/jasonrclark/newrelic-shoes"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
