@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jason R. Clark"]
   spec.email         = ["jason@jasonclark.net"]
 
-  spec.summary       = %q{An extension to use New Relic in Shoes.}
+  spec.summary       = %q{Use New Relic to trace Shoes.}
   spec.homepage      = "https://github.com/jasonrclark/newrelic-shoes."
   spec.license       = "MIT"
 
